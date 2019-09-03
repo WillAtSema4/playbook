@@ -4,20 +4,29 @@
 @import "{{ site.theme }}";
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);
 
+$primary-color: #00AEEF;
+$secondary-color: #6CC04A;
+
 body {
   font-family: 'Raleway', sans-serif;
 }
 h1{
-  color: #00AEEF;
+  color: $primary-color;
 }
-h2 {
-  color: #6CC04A;
+.project-tagline {
+  color: $secondary-color;
 }
-/*.primary-bg {
-  background-color: #00AEEF;
-}*/
+
+,
+.main-content h2 {
+  color: $primary-color;
+}
+
 a {
-  color: #00AEEF;
+  color: $primary-color;
+}
+.project-name {
+  font-weight: normal;
 }
 .page-header {
   text-align: center;
