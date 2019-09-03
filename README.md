@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Our Values
 
-You can use the [editor on GitHub](https://github.com/WillAtSema4/playbook/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+&nbsp;&nbsp;&nbsp;&nbsp;consectetur adipisicing elit
 
-### Markdown
+&nbsp;&nbsp;&nbsp;&nbsp;Tenetur totam consequuntur consectetur maxime libero sed
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+&nbsp;&nbsp;&nbsp;&nbsp;quibusdam quod voluptatibus minus.
 
-```markdown
-Syntax highlighted code block
+&nbsp;&nbsp;&nbsp;&nbsp;Enim corrupti nobis veniam ipsum velit nam voluptates facilis a, nihil!  
 
-# Header 1
-## Header 2
-### Header 3
+## Our Software Development Life Cycle
+We use an agile-based approach to creating our software, from its inception to its release. This allows us to quickly adapt to changing requirements from our customers and the market, and to deliver continuously in value-added increments.
 
-- Bulleted
-- List
+We tailor each project's workflow to it's scope, impact, and other criteria, but our standard workflow looks like this:
 
-1. Numbered
-2. List
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WillAtSema4/playbook/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+https://github.com/WillAtSema4/playbook/blob/master/assets/images/sdlc_diagram.png|alt=flowchart]]
