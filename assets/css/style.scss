@@ -6,6 +6,7 @@
 
 $primary-color: #00AEEF;
 $secondary-color: #6CC04A;
+$tertiary-color: #F5A623;
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -18,6 +19,12 @@ h1{
 }
 .main-content h2 {
   color: $primary-color;
+}
+.main-content h3 {
+  color: $secondary-color;
+}
+.main-content h4 {
+  color: $tertiary-color;
 }
 
 a {
