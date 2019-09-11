@@ -11,20 +11,36 @@ $tertiary-color: #F5A623;
 body {
   font-family: 'Raleway', sans-serif;
 }
-h1{
-  color: $primary-color;
+
+.page-header {
+  .project-name {
+    color: $primary-color;
+  }
+  .project-tagline {
+    color: $secondary-color;
+  }
 }
-.project-tagline {
-  color: $secondary-color;
-}
-.main-content h2 {
-  color: $primary-color;
-}
-.main-content h3 {
-  color: $secondary-color;
-}
-.main-content h4 {
-  color: $tertiary-color;
+
+.main-content {
+  h1 {
+    color: $primary-color;
+  }
+  h2 {
+    color: $primary-color;
+  }
+  h3 {
+    color: $secondary-color;
+  }
+  h4 {
+    /*color: $secondary-color;*/
+    color: $tertiary-color;
+    /*font-weight: bold;*/
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  h4+p {
+    margin-top: 0;
+  }
 }
 
 a {

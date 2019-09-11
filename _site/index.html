@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Our Software Development Life Cycle | Sema4 Playbook</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Our Software Development Life Cycle" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An overview of the Sema4 Software Development Life Cycle and the tools we use to implement it." />
+<meta property="og:description" content="An overview of the Sema4 Software Development Life Cycle and the tools we use to implement it." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Sema4 Playbook" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","headline":"Our Software Development Life Cycle","name":"Sema4 Playbook","description":"An overview of the Sema4 Software Development Life Cycle and the tools we use to implement it.","@type":"WebSite","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=c767ae5943c4a28fe3a161770001bcdbdebc28d9">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Sema4 Playbook</h1>
+      <h2 class="project-tagline">An overview of the Sema4 Software Development Life Cycle and the tools we use to implement it.</h2>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="our-software-development-life-cycle">Our Software Development Life Cycle</h1>
+<p>We use an agile-based approach to creating our software, from its inception to its release. This allows us to quickly adapt to changing requirements from our customers and the market, and to deliver continuously in value-added increments.</p>
+
+<p>We tailor each project’s workflow to it’s scope, impact, and other criteria, but our standard workflow looks like this:</p>
+
+<p><img src="/assets/images/sdlc_diagram.webp" alt="SDLC Diagram" /></p>
+
+<h2 id="product-scoping-document">Product scoping document</h2>
+<h4 id="description">Description</h4>
+<p>Documenting requests from stakeholders, targeting business timing and prioritization</p>
+
+<h4 id="input">Input</h4>
+<p>Stakeholder requests collected by Product &amp; Program</p>
+
+<h4 id="output">Output</h4>
+<p>Product Charter, product scope document</p>
+
+<h2 id="user-research">User Research</h2>
+<h4 id="description-1">Description</h4>
+<p>Iterative research to better understand user behaviors, needs, and motivations through a variety of research techniques.</p>
+
+<h4 id="input-1">Input</h4>
+<p>User testing plan, user screener, in-person interviews, remote usability sessions through usertesting.com, in-person formal usability tests with paper or clickable prototypes or a working build</p>
+
+<p>Program to assist with organizing. and scheduling sessions</p>
+
+<h4 id="output-1">Output</h4>
+<p>User feedback deck with findings and recommendations</p>
+
+<h2 id="product-spec">Product Spec</h2>
+<h4 id="description-2">Description</h4>
+<p>Product creates specs</p>
+
+<h4 id="input-2">Input</h4>
+<p>Product Scoping Document, User Feedback</p>
+
+<p>Program to assist in tracking &amp; closing out requirements</p>
+
+<h4 id="output-2">Output</h4>
+<p>Gold Standard spec</p>
+
+<h2 id="engineering--ued-review-of-spec">Engineering &amp; UED review (Of spec)</h2>
+<h4 id="description-3">Description</h4>
+<p>Engineering and UED team review the specs for a general feasability assessment and offering any technical / UI insights. Preferably this should happen as a meeting with select members from each team.</p>
+
+<h4 id="input-3">Input</h4>
+<p>Product Spec</p>
+
+<h4 id="output-3">Output</h4>
+<p>Spec feedback, approval from UED/Eng that spec is complete enough to begin work</p>
+
+<h2 id="wireframing">Wireframing</h2>
+<h4 id="description-4">Description</h4>
+<p>“Blueprints” of the UI based on specs, including major pages as well as interaction and experience.</p>
+
+<h4 id="input-4">Input</h4>
+<p>Product Spec and engineering insights</p>
+
+<h4 id="output-4">Output</h4>
+<p>Wireframes</p>
+
+<h2 id="engineering--product-review-of-wire-frames">Engineering &amp; Product review (Of wire frames)</h2>
+<h4 id="description-5">Description</h4>
+<ul>
+  <li>Engineering reviews wireframes for feasability, raises any risks or concerns and offers technical insights</li>
+  <li>Product reviews wireframes to confirm that Product Specs are fulfilled</li>
+</ul>
+
+<h4 id="input-5">Input</h4>
+<p>Wireframes</p>
+
+<h4 id="output-5">Output</h4>
+<p>Feedback/Approval from Product/Eng</p>
+
+<h2 id="product-creates-test-cases">Product creates test cases</h2>
+<h4 id="description-6">Description</h4>
+<p>Product creates test cases to outline application flow and user stories outlining proposed functionality</p>
+
+<h4 id="input-6">Input</h4>
+<p>Product Spec, Wire Frames</p>
+
+<h4 id="output-6">Output</h4>
+<p>Test Cases</p>
+
+<h2 id="comps-and-content">Comps and Content</h2>
+<h4 id="description-7">Description</h4>
+<p>UED creates detailed comps and content for the feature.</p>
+
+<h4 id="input-7">Input</h4>
+<p>Product Spec, Wireframes</p>
+
+<h4 id="output-7">Output</h4>
+<p>Comps and Content (manuscript).  Comps uploaded into InVision.</p>
+
+<h2 id="tech-doc--risk-assessment-with-infosec">Tech Doc &amp; Risk Assessment with InfoSec</h2>
+<h4 id="description-8">Description</h4>
+<p>Engineer creates a technical specification (https://eng.lyft.com/awesome-tech-specs-86eea8e45bb9) outlining architecture/system changes, engineering tasks involved, potential risks, and effort required.
+Engineer reviews system changes &amp; risks with the INFOSEC team</p>
+
+<h4 id="input-8">Input</h4>
+<p>Product Spec &amp; Wireframes</p>
+
+<h4 id="output-8">Output</h4>
+<p>Tech Spec &amp; INFOSEC signoff</p>
+
+<h2 id="engineering-product-review--high-fidelity-sizing">Engineering Product Review &amp; High Fidelity Sizing</h2>
+<h4 id="description-9">Description</h4>
+<p>Engineering and Product review Comps, Tech Doc (optional), and Test cases and sizes stories accurately (as opposed to T shirt sizing, etc)</p>
+
+<h4 id="input-9">Input</h4>
+<p>Comps, Tech Doc (optional), and Test cases</p>
+
+<h4 id="output-9">Output</h4>
+<p>Sized Stories/Tasks</p>
+
+<h2 id="sprint--release-planning">Sprint &amp; Release Planning</h2>
+<h4 id="description-10">Description</h4>
+<p>Groom the release and sprint backlog based on value, effort, and risk</p>
+
+<h4 id="input-10">Input</h4>
+<p>Sized Stories/Tasks, Comps, Tech Doc, Test Cases</p>
+
+<h4 id="output-10">Output</h4>
+<p>Groomed and prioritized backlog for release and sprint</p>
+
+<h2 id="dev-build">Dev Build</h2>
+<h4 id="description-11">Description</h4>
+<p>Engineers complete the tasks (as prioritized), using the techniques from their playbook such as TDD, Pair Programming, etc.</p>
+
+<h4 id="input-11">Input</h4>
+<p>Groomed and prioritized sprint backlog, Dev process</p>
+
+<h4 id="output-11">Output</h4>
+<p>Completed Tasks/Sprint, built feature deployed to testing environment (Sandbox, QA, etc.)</p>
+
+<h2 id="qa">QA</h2>
+<h4 id="description-12">Description</h4>
+<p>QA team completes the QA process, using the techniques from their playbook. Engineers resolve bugs and deploy fixes to the testing environment</p>
+
+<h4 id="input-12">Input</h4>
+<p>Deployed Feature Branch, Test Cases, QA Process</p>
+
+<h4 id="output-12">Output</h4>
+<p>Quality application/features that passes the Product test cases with few to no defects
+Signoff from QA</p>
+
+<h2 id="fit--finish">Fit &amp; Finish</h2>
+<h4 id="description-13">Description</h4>
+<p>UED reviews the latest build, and checks interactions and design specs for any discrepancies. Engineers resolve design issues and deploy fixes to the testing environment</p>
+
+<h4 id="input-13">Input</h4>
+<p>Deployed Feature Branch, Comps, Fit &amp; Finish Process</p>
+
+<h4 id="output-13">Output</h4>
+<p>Well designed application/features that matches the comps
+Signoff from UED</p>
+
+<h2 id="deployment-staging">Deployment (Staging)</h2>
+<h4 id="description-14">Description</h4>
+<p>Engineers/Devops deploy the application to a staging environment. Staging should have production-like data and environment settings</p>
+
+<h4 id="input-14">Input</h4>
+<p>Polished application/features with signoff from QA &amp; UED</p>
+
+<h4 id="output-14">Output</h4>
+<p>Deployed application where Stakeholders can review before release</p>
+
+<h2 id="release">Release</h2>
+<h4 id="description-15">Description</h4>
+<p>Engineers/Devops/Release Engineers deploy the application to the production environment per the release process defined in their playbook</p>
+
+<h4 id="input-15">Input</h4>
+<p>Polished application, stakeholder approval, release playbook</p>
+
+<h4 id="output-15">Output</h4>
+<p>Feature/application goes live and is available to end users</p>
+
+<h2 id="monitor--support">Monitor &amp; Support</h2>
+<h4 id="description-16">Description</h4>
+<p>Engineers, Production Support, and Product(?) monitor the application via logs, error reporting, and user feedback per the monitoring &amp; support processes defined in their playbook.</p>
+
+<h4 id="input-16">Input</h4>
+<p>Deployed application</p>
+
+<h4 id="output-16">Output</h4>
+<p>Metrics to verify release success, support for end users, feedback for future iterations.</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/WillAtSema4/playbook">playbook</a> is maintained by <a href="https://github.com/WillAtSema4">WillAtSema4</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="/js/jquery.min.js"></script> -->
+    <style>
+.lightbox {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0,0,0,0.85); z-index: 9999999; line-height: 0; cursor: pointer;}
+.lightbox .img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+.lightbox .img img {opacity: 0; pointer-events: none; width: auto;}
+@media screen and (min-width: 1200px) {
+    .lightbox .img {
+    max-width: 1200px;
+    }
+}
+@media screen and (min-height: 1200px) {
+    .lightbox img {
+    max-height: 1200px;
+  }
+}
+.lightbox span {
+    display: block;
+    position: fixed;
+    bottom: 13px;
+    height: 1.5em;
+    line-height: 1.4em;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+
+
+
+
+.lightbox .videoWrapperContainer {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  max-width: 900px;
+  max-height: 100%;
+}
+.lightbox .videoWrapperContainer .videoWrapper {
+  height: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-bottom: 56.333%; /* custom */
+  background: black;
+}
+.lightbox .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+.lightbox #prev, .lightbox #next {height: 50px; line-height: 36px; display: none; margin-top: -25px; position: fixed; top: 50%; padding: 0 15px; cursor: pointer; text-decoration: none; z-index: 99; color: white; font-size: 60px;}
+.lightbox.gallery #prev, .lightbox.gallery #next {display: block;}
+.lightbox #prev {left: 0;}
+.lightbox #next {right: 0;}
+.lightbox #close {height: 50px; width: 50px; position: fixed; cursor: pointer; text-decoration: none; z-index: 99; right: 0; top: 0;}
+.lightbox #close:after, .lightbox #close:before {position: absolute; margin-top: 22px; margin-left: 14px; content: ""; height: 3px; background: white; width: 23px;
+-webkit-transform-origin: 50% 50%;
+-moz-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+/* Safari */
+-webkit-transform: rotate(-45deg);
+/* Firefox */
+-moz-transform: rotate(-45deg);
+/* IE */
+-ms-transform: rotate(-45deg);
+/* Opera */
+-o-transform: rotate(-45deg);
+}
+.lightbox #close:after {
+/* Safari */
+-webkit-transform: rotate(45deg);
+/* Firefox */
+-moz-transform: rotate(45deg);
+/* IE */
+-ms-transform: rotate(45deg);
+/* Opera */
+-o-transform: rotate(45deg);
+}
+.lightbox, .lightbox * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+img.lightbox-image {
+  cursor: pointer;
+}
+
+</style>
+
+<script>
+function is_youtubelink(url) {
+  var p = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+  return (url.match(p)) ? RegExp.$1 : false;
+}
+function is_imagelink(url) {
+  var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif|webp))/i;
+  console.log(url);
+  console.log(url.match(p));
+  return (url.match(p)) ? true : false;
+}
+function is_vimeolink(url,el) {
+  var id = false;
+  $.ajax({
+    url: 'https://vimeo.com/api/oembed.json?url='+url,
+    async: true,
+    success: function(response) {
+    if(response.video_id) {
+      id = response.video_id;
+      $(el).addClass('lightbox-vimeo').attr('data-id',id);
+    }
+    }
+  });
+}
+
+$(document).ready(function() {
+  //add classes to links to be able to initiate lightboxes
+  $("a").each(function(){
+    var url = $(this).attr('href');
+    if(url) {
+      if(url.indexOf('vimeo') !== -1 && !$(this).hasClass('no-lightbox')) is_vimeolink(url,$(this));
+      if(is_youtubelink(url) && !$(this).hasClass('no-lightbox')) $(this).addClass('lightbox-youtube').attr('data-id',is_youtubelink(url));
+      if(is_imagelink(url) && !$(this).hasClass('no-lightbox')) {
+        $(this).addClass('lightbox-image');
+        var href = $(this).attr('href');
+        var filename = href.split('/').pop();
+        var split = filename.split(".");
+        var name = split[0];
+        $(this).attr('title',name);
+      }
+    }
+  });
+  //add classes to images to be able to initiate lightboxes
+  $("img").each(function(){
+    var url = $(this).attr('src');
+    if(url) {
+      if(url.indexOf('vimeo') !== -1 && !$(this).hasClass('no-lightbox')) is_vimeolink(url,$(this));
+      if(is_youtubelink(url) && !$(this).hasClass('no-lightbox')) $(this).addClass('lightbox-youtube').attr('data-id',is_youtubelink(url));
+      if(is_imagelink(url) && !$(this).hasClass('no-lightbox')) {
+        $(this).addClass('lightbox-image');
+        var src = $(this).attr('src');
+        var filename = src.split('/').pop();
+        var split = filename.split(".");
+        var name = split[0];
+        $(this).attr('title',name);
+      }
+    }
+  });
+
+  //remove the clicked lightbox
+  $("body").on("click", ".lightbox", function(event){
+    if($(this).hasClass('gallery')) {
+
+      $(this).remove();
+
+      if($(event.target).attr('id')=='next') {
+        //next item
+        if($("a.gallery.current").nextAll("a.gallery:first").length) $("a.gallery.current").nextAll("a.gallery:first").click();
+        else $("a.gallery.current").parent().find("a.gallery").first().click();
+      }
+      else if ($(event.target).attr('id')=='prev') {
+        //prev item
+        if($("a.gallery.current").prevAll("a.gallery:first").length) $("a.gallery.current").prevAll("a.gallery:first").click();
+        else $("a.gallery.current").parent().find("a.gallery").last().click();
+      }
+      else {
+        $("a.gallery").removeClass('gallery');
+      }
+    }
+    else $(this).remove();
+  });
+  //prevent image from being draggable (for swipe)
+  $("body").on('dragstart', ".lightbox img", function(event) { event.preventDefault(); });
+  //add the youtube lightbox on click
+  $("a.lightbox-youtube").click(function(event){
+    event.preventDefault();
+    $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://www.youtube.com/embed/'+$(this).attr('data-id')+'?autoplay=1&showinfo=0&rel=0"></iframe></div></div></div>').appendTo('body');
+  });
+  //add the image lightbox on click
+  $("a.lightbox-image").click(function(event){
+    event.preventDefault();
+    $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+$(this).attr('href')+'\') center center / contain no-repeat;" title="'+$(this).attr('title')+'" ><img src="'+$(this).attr('href')+'" alt="'+$(this).attr('title')+'" /></div><span>'+$(this).attr('title')+'</span></div>').appendTo('body');
+  });
+  //add the image lightbox on click
+  $("img.lightbox-image").click(function(event){
+    event.preventDefault();
+    $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+$(this).attr('src')+'\') center center / contain no-repeat;" title="'+$(this).attr('title')+'" ><img src="'+$(this).attr('src')+'" alt="'+$(this).attr('title')+'" /></div><span>'+$(this).attr('title')+'</span></div>').appendTo('body');
+  });
+  //add the vimeo lightbox on click
+  $("body").on("click", "a.lightbox-vimeo", function(event){
+    event.preventDefault();
+    $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://player.vimeo.com/video/'+$(this).attr('data-id')+'/?autoplay=1&byline=0&title=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div></div>').appendTo('body');
+  });
+
+  $("body").on("click", "a[class*='lightbox-']", function(){
+    var link_elements = $(this).parent().find("a[class*='lightbox-']");
+    $(link_elements).removeClass('current');
+    for (var i=0; i<link_elements.length; i++) {
+      if($(this).attr('href') == $(link_elements[i]).attr('href')) {
+        $(link_elements[i]).addClass('current');
+      }
+    }
+    if(link_elements.length>1) {
+      $('.lightbox').addClass('gallery');
+      $(link_elements).addClass('gallery');
+    }
+  });
+
+  $("body").on("click", "img[class*='lightbox-']", function(){
+    var link_elements = $(this).parent().find("img[class*='lightbox-']");
+    $(link_elements).removeClass('current');
+    for (var i=0; i<link_elements.length; i++) {
+      if($(this).attr('src') == $(link_elements[i]).attr('src')) {
+        $(link_elements[i]).addClass('current');
+      }
+    }
+    if(link_elements.length>1) {
+      $('.lightbox').addClass('gallery');
+      $(link_elements).addClass('gallery');
+    }
+  });
+
+
+});
+
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        $("#prev").click();
+        break;
+        case 39: // right
+        $("#next").click();
+        break;
+  case 27: // esc
+        $("#close").click();
+        break;
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
+
+
+  /*===========================
+  Swipe-it v1.4.1
+  An event listener for swiping gestures with vanilla js.
+  https://github.com/tri613/swipe-it#readme
+
+  @Create 2016/09/22
+  @Update 2017/08/11
+  @Author Trina Lu
+  ===========================*/
+
+  "use strict";var _slicedToArray=function(){function n(n,t){var e=[],i=!0,o=!1,r=void 0;try{for(var u,c=n[Symbol.iterator]();!(i=(u=c.next()).done)&&(e.push(u.value),!t||e.length!==t);i=!0);}catch(n){o=!0,r=n}finally{try{!i&&c.return&&c.return()}finally{if(o)throw r}}return e}return function(t,e){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return n(t,e);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}();!function(n,t,e){function i(n){function e(){o("touchstart",m,w),o("touchmove",d,w),o("touchend",p,w),E.mouseEvent&&o("mousedown",s,w)}function i(){y=!1,D=!1,A=!1,b=!1,a=!1}function s(n){a=this,y=n.clientX,D=n.clientY,o("mousemove",l,v),o("mouseup",h,v)}function l(n){n.preventDefault(),y&&D&&(A=n.clientX,b=n.clientY)}function h(n){r("mousemove",l,v),r("mouseup",h,v),p(n)}function m(n){a=this,y=n.touches[0].clientX,D=n.touches[0].clientY}function d(n){A=n.touches[0].clientX,b=n.touches[0].clientY}function p(n){if(y&&D&&A&&b){var t=y-A,e=D-b,o=[t,e].map(Math.abs),r=_slicedToArray(o,2),c=r[0],s=r[1],v=E.minDistance;if(c>v){var f=y<A?"swipeRight":"swipeLeft";u(f,a,{distance:t,start:y,end:A})}if(s>v){var l=D>b?"swipeUp":"swipeDown";u(l,a,{distance:e,start:D,end:b})}(c>v||s>v)&&u("swipe",a)}i()}var E=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},w=c(t.querySelectorAll(n)),y=void 0,D=void 0,A=void 0,b=void 0;E.mouseEvent=void 0===E.mouseEvent?f.mouseEvent:E.mouseEvent,E.minDistance=void 0===E.minDistance?f.minDistance:E.minDistance,i(),e(),this.on=function(n,t){return o(n,t,w),this}}function o(n,t,e){s(e).forEach(function(e){return e.addEventListener(n,t)})}function r(n,t,e){s(e).forEach(function(e){return e.removeEventListener(n,t)})}function u(n,e){var i=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{},o=t.createEvent("Event");o.initEvent(n,!0,!0),o.swipe=i,s(e).forEach(function(n){return n.dispatchEvent(o)})}function c(n){for(var t=[],e=0;e<n.length;e++)t.push(n[e]);return t}function s(n){return Array.isArray(n)?n:[n]}var a=!1,v=[n],f={mouseEvent:!0,minDistance:30};n[e]=i}(window,document,"SwipeIt");
+
+var mySwipeIt = new SwipeIt('body');
+mySwipeIt.on('swipeLeft',function(e){
+  //check if lightbox is present
+  if($('.lightbox').length >  0 ) {
+    $("#next").click();
+  }
+}).on('swipeRight',function(e){
+  //check if lightbox is present
+  if($('.lightbox').length >  0 ) {
+    $("#prev").click();
+  }
+});
+
+</script>
+
+  </body>
+</html>
