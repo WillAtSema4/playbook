@@ -3,7 +3,7 @@ We use an agile-based approach to creating our software, from its inception to i
 
 We tailor each project's workflow to it's scope, impact, and other criteria, but our standard workflow looks like this:
 
-![SDLC Diagram](/assets/images/sdlc_diagram.webp)
+![SDLC Diagram](/assets/images/sdlc_diagram.png)
 
 ## Product scoping document
 #### Description
